@@ -1,0 +1,88 @@
+.usuarios{
+    color: darkgreen;
+}
+
+.usersContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.userCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInfo img{
+    width: 150px;
+}
+
+.userCard:hover{
+    /* transform: scale(1.05); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2.2);
+    transition: box-shadow 1.2s; 
+}
+
+/* .userCard::after {
+    transform: scale(1.0);
+    transition: transform 1.2s; 
+} */
+
+.userCard:hover::after {
+    transform: scale(1.0);
+    transition: transform 1.2s; 
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.btns-arriba{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.manos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 2rem;
+    gap: 10px;
+}
+
+.estrellas{
+    height: 1rem;
+}
+
+
+.contador{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+  }
+
+.btns-abajo{
+    display: flex;
+    flex-direction: column;
+}
+  
