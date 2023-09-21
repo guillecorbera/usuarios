@@ -5,7 +5,7 @@ import React, {useState} from "react";
 import { fakerES } from '@faker-js/faker';
 import  Estrellas1  from "../components/Home/Estrellas1";
 // import Modal from './Modal'
-import './inicio.css'
+import './Inicio.css'
 
 // const Inicio =() => {
 
